@@ -1,0 +1,45 @@
+.intro_journey {
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro_journey h1 {
+    text-align: center;
+}
+
+.intro_journey p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-center{
+    border: 10px ridge #f00;
+    background-color: rgb(142, 0, 123);
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.text-center p {
+    text-align: "center";
+}
+
+
+
+
+
